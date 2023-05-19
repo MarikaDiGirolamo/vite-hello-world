@@ -1,11 +1,11 @@
-<script setup>
+<script>
 import AppTitle from './components/AppTitle.vue'
 import AppComponent from './components/AppComponent.vue'
 
 export default {
   components: {
     AppTitle,
-    AppComponent
+    AppComponent,
   }
 }
 </script>
