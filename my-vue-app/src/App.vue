@@ -1,6 +1,6 @@
 <script setup>
-import AppTitle from './components/AppTitle.vue';
-import AppComponent from './components/AppComponent.vue';
+import AppTitle from './components/AppTitle.vue'
+import AppComponent from './components/AppComponent.vue'
 
 export default {
   components: {
@@ -12,6 +12,9 @@ export default {
 
 <template>
   <h1>La mia prima app con Vite</h1>
+
+  <AppTitle />
+  <AppComponent />
 </template>
 
 <style scoped>

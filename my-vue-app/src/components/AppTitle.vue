@@ -5,5 +5,5 @@ export default {
 </script>
 
 <template>
-    <h1>Hello There</h1>
+    <AppTitle />
 </template>
