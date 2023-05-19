@@ -1,10 +1,30 @@
 <script setup>
+import AppTitle from './components/AppTitle.vue';
+import AppComponent from './components/AppComponent.vue';
 
+export default {
+  components: {
+    AppTitle,
+    AppComponent
+  }
+}
 </script>
 
 <template>
-  <div>
-  </div>
+  <h1>La mia prima app con Vite</h1>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
+} */
+</style>
